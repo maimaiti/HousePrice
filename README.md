@@ -21,8 +21,9 @@ This is a simple Flask app that will predict the house price using sci-kit Learn
   - Explore the "controller.py" file. Can you figure out what it does?
   - Explore the rest of the code. Can you figure out what the other files do?
 
-### 3) Deploy to Heroku! (requires heroku install & signup)
-  - sudo snap install --classic heroku
+### 3) Deploy to Heroku! (requires heroku install & signup) on GCP cloud shell
+  - sudo apt install snapd 
+  - curl https://cli-assets.heroku.com/install.sh | sh
   - heroku create
   - git add .
   - git commit -m "initial commit"
